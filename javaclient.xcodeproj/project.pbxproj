@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		4F891F661808611500CD070A /* Server.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Server.java; sourceTree = "<group>"; };
+		4F93C38F180820B7002C6054 /* Client.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Client.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		4F93C38418082094002C6054 = {
 			isa = PBXGroup;
 			children = (
+				4F93C38F180820B7002C6054 /* Client.java */,
+				4F891F661808611500CD070A /* Server.java */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +159,7 @@
 				4F93C38E18082095002C6054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
